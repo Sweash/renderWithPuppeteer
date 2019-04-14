@@ -59,3 +59,6 @@ electron/ptm/bower.json
 electron/ptm/index.html
 electron/ptm/public
 electron/ptm/dist
+
+#Files
+#tests.pdf
