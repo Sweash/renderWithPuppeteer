@@ -1,0 +1,8 @@
+{
+    "id": 42,
+    "concentrations": [
+        {"name": "SN00001"},
+        {"name": "SN00002"},
+        {"name": "SN00003"}
+    ]
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+        }
+
+        .header-item {
+            border: 1px solid blue;
+            grid-area: 'header-item'
+        }
+
+        .body-item {
+            border: 1px solid blue;
+            grid-area: 'body-item'
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="header-item">
+            Einwirkzeit / 
+            contact time
+        </div>
+        <div class="header-item">
+            Validierungs-
+            suspension /
+            validation
+            suspension
+        </div>
+        <div class="header-item">
+            Kontrolle /
+            control
+        </div>
+        <div class="header-item">
+            Kontrolle /
+            control
+        </div>
+        <div class="header-item">
+            Kontrolle /
+            control
+        </div>
+        <div class="header-item">
+            Keimsuspension /
+            test suspension
+        </div>
+        <div class="header-item">
+            Na
+        </div>
+        {{#each concentrations as |concentration|}}
+        <div class="header-item">
+            {{concentration.name}}
+        </div>
+        {{/each}}
+
+        <div class="body-item">{{id}}</div>
+        <div class="body-item">{{idHelper id}}</div>
+        <div class="body-item">2</div>
+        <div class="body-item">3</div>
+        <div class="body-item">4</div>
+        <div class="body-item">5</div>
+        <div class="body-item">6</div>
+        <div class="body-item">7</div>
+        <div class="body-item">8</div>
+        <div class="body-item">9</div>
+    </div>
+</body>
+
+</html>

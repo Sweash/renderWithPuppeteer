@@ -1,0 +1,61 @@
+# JetBrains
+.idea
+
+# OS X
+.DS_Store*
+Icon\r\r
+._*
+
+# Windows
+Thumbs.db
+thumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+node_modules
+*.log
+*.gz
+
+# bower
+bower_components
+
+tmp_uploads
+
+# PT.Manager.V2
+./build
+public/assets
+documents
+
+#Electron LMI
+electron/lmi/bower.json
+electron/lmi/index.html
+electron/lmi/public
+electron/lmi/dist
+
+#Electron HTG
+electron/htg/bower.json
+electron/htg/index.html
+electron/htg/public
+electron/htg/dist
+
+#Electron Kubus
+electron/kubus/bower.json
+electron/kubus/index.html
+electron/kubus/public
+electron/kubus/dist
+
+#Electron ptm_test
+electron/ptm_test/bower.json
+electron/ptm_test/index.html
+electron/ptm_test/public
+electron/ptm_test/dist
+
+#Electron ptm
+electron/ptm/bower.json
+electron/ptm/index.html
+electron/ptm/public
+electron/ptm/dist
